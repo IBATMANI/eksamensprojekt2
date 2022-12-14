@@ -63,7 +63,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 33px;
+    font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
@@ -136,7 +136,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 33px;
+        font-size: 30px;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 33px;
@@ -162,8 +162,25 @@
 }
 
 .hjem2 {
-    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
+.hjem2 h1{
+    font-family: ropa-mix-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.hjem2 p{
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
 
 .hjempic {
     max-width: 310px;
@@ -180,7 +197,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 33px;
+    font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
@@ -194,7 +211,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 33px;
+    font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
