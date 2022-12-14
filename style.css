@@ -45,6 +45,7 @@
 
 .box7 {
     padding: 0 5%;
+    margin: 5%;
     flex: 1;
 }
 
@@ -85,36 +86,43 @@
     }
     
     .box2 {
-        padding: 0 5%;
+        display: block;
+        padding: 1%;
         flex: 1;
     }
     
     .box3 {
-        padding: 0 5%;
+        display: block;
+        padding: 1%;
         flex: 1;
     }
     
     .box4 {
-        padding: 0 5%;
+        display: block;
+        padding: 1%;
         flex: 1;
     }
     
     .box5 {
-        padding: 0 5%;
+        display: block;
+        padding: 1%;
         flex: 1;
     }
     
     .box6 {
-        padding: 0 5%;
+        display: block;
+        padding: 1%;
         flex: 1;
     }
     
     .box7 {
-        padding: 0 5%;
+        display: inline-flex;
+        padding: 0;
         flex: 1;
     }
     
     .box8 {
+        display: flex;
         padding: 0 5%;
         flex: 1;
         font-size: 10px;
