@@ -216,4 +216,12 @@
     cursor: pointer;
     border-radius: 33px;
 }
+
+.banner {
+    background-color: #F0F0E8;
+    color: #12362A;
+    font-family: ropa-mix-pro, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
   
