@@ -1118,6 +1118,42 @@ header{
     height: 210px;
     border-radius: 30px;
     object-position: 50% 50%; }
+
+    .irisjacobdisc {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: ropa-mix-pro, sans-serif;
+    }
+    .irisnavn {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: ropa-mix-pro, sans-serif;
+    }
+    .jacobnavn {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: ropa-mix-pro, sans-serif;
+    }
+    .team {
+        text-align: left;
+        font-family: ropa-mix-pro, sans-serif;
+    }
+    .bag {
+        font-family: neue-haas-grotesk-text, sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        margin-top: 23px;
+    }
+    .hvembag {
+        font-family: ropa-mix-pro, sans-serif;
+        margin-top: 34px;
+
+    }
+    .mail {
+        font-family: neue-haas-grotesk-text, sans-serif;
+        font-size: 20px;
+    }
   /* Alex om side slut */
 
 
