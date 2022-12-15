@@ -1,9 +1,9 @@
 const menuItems = [
-  {name: 'hjem', url: '/hjem'},
-  {name: 'teknologi', url: '/teknologi'},
-  {name: 'projekter', url: '/projekter'},
-  {name: 'om', url: '/om'},
-  {name: 'nyheder', url: '/nyheder'},
+  {name: 'hjem', url: '/index.html'},
+  {name: 'teknologi', url: '/teknologi.html'},
+  {name: 'projekter', url: '/projekter.html'},
+  {name: 'om', url: '/om.html'},
+  {name: 'nyheder', url: '/nyheder.html'},
 ];
 
 const menuContainer = document.getElementById('menu-container');
