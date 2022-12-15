@@ -197,6 +197,7 @@
     font-weight: 700;
     font-style: normal;
     font-size: 35px;
+    color: #12362A;
 }
 
 .hjem2 p{
@@ -204,6 +205,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    color: #12362A;
 }
 
 
@@ -250,4 +252,10 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-  
+
+.bannergreen {
+    background-color: #BCE784;
+    color: #12362A;
+    font-family: ropa-mix-pro, sans-serif;
+    padding: 1%;
+}
