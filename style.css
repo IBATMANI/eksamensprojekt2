@@ -289,14 +289,14 @@ header{
     font-style: normal;
     font-size: 15px;
     color: #12362A;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .logo-img {
     /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
-    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .kontaktknap {
