@@ -257,27 +257,27 @@ header{
   }
   /* Alex om side slut */
 /* logoer */
+/* -------logoer------- */
 .grid-logoer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
+    text-align: center;
 }
 
 .center-logo-grid {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    
 }
 
-.center-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;    
+.logo-text {
+    
 }
 
 .logo-img {
-    width: fit-content;
+    /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
 }
