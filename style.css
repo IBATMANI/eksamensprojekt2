@@ -455,6 +455,7 @@ header{
     font-family: ropa-mix-pro, sans-serif;
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 5%;
 }
 
 .bannergreen {
@@ -462,6 +463,7 @@ header{
     color: #12362A;
     font-family: ropa-mix-pro, sans-serif;
     padding: 1%;
+    margin-bottom: 5%;
 }
 
 .someknap {
@@ -476,5 +478,6 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
