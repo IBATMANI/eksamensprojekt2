@@ -255,6 +255,13 @@ header{
     cursor: pointer;
     border-radius: 33px;
   }
+  .portrait {
+    object-fit: cover;
+    font-family: ropa-mix-pro, sans-serif;
+    width: 310px;
+    height: 210px;
+    border-radius: 30px;
+    object-position: 50% 50%; }
   /* Alex om side slut */
 /* logoer */
 /* -------logoer------- */
