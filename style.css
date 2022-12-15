@@ -220,30 +220,7 @@ header{
 }
 
 
-.grid-logoer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 5px;
-}
 
-.center-logo-grid {
-    margin: 0 auto;
-}
-
-.center-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;    
-}
-
-.logo-img {
-    width: fit-content;
-    max-width: 150px;
-    max-height: 45px;
-}
   .portrait {
     object-fit: cover;
     font-family: ropa-mix-pro, sans-serif;
@@ -260,18 +237,18 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 10px;
     grid-row-gap: 20px;
     text-align: center;
     
 }
 
 .logoer {
-    margin: 15px;
+    margin-bottom: 5%;
+    margin: 40px;
 }
 
 .center-text {
-
     font-family: ropa-mix-pro, sans-serif;
     font-weight: 0;
     font-style: normal;
@@ -281,7 +258,6 @@ header{
 }
 
 .logo-img {
-    /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
     margin-bottom: 20px;
