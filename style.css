@@ -283,7 +283,13 @@ header{
 }
 
 .center-text {
-    margin: 10px;
+
+    font-family: ropa-mix-pro, sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 15px;
+    color: #12362A;
+    margin-bottom: 2%;
 }
 
 .logo-img {
