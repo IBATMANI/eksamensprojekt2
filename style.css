@@ -81,7 +81,7 @@
     max-height: 45px;
 }
 
-.kontakt {
+.kontaktknap {
     background-color: #FC8ECA;
     border: none;
     color: #12362A;
@@ -215,7 +215,7 @@
     height: 100%;
 }
 
-.teknologi {
+.teknologiknap {
     background-color: #BCE784;
     border: none;
     color: #12362A;
@@ -229,7 +229,7 @@
     border-radius: 33px;
 }
 
-.om {
+.omknap {
     background-color: #BCE784;
     border: none;
     color: #12362A;
