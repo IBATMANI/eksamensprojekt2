@@ -263,8 +263,9 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 5px;
+    grid-row-gap: 20px;
     text-align: center;
+    
 }
 
 .center-logo-grid {
@@ -272,14 +273,15 @@ header{
     
 }
 
-.logo-text {
-    
+.center-text {
+    margin: 10px;
 }
 
 .logo-img {
     /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
+    margin-top: 25px;
 }
 
 .kontaktknap {
