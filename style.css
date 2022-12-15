@@ -257,27 +257,27 @@ header{
   }
   /* Alex om side slut */
 /* logoer */
+/* -------logoer------- */
 .grid-logoer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
+    text-align: center;
 }
 
 .center-logo-grid {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    
 }
 
-.center-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;    
+.logo-text {
+    
 }
 
 .logo-img {
-    width: fit-content;
+    /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
 }
@@ -398,6 +398,7 @@ header{
     font-style: normal;
     font-size: 35px;
     color: #12362A;
+    margin-bottom: 5%;
 }
 
 .hjem2 p{
@@ -406,6 +407,7 @@ header{
     font-style: normal;
     font-size: 20px;
     color: #12362A;
+    margin-bottom: 5%;
 }
 
 
@@ -429,6 +431,7 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
 .omknap {
@@ -443,6 +446,7 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
 .banner {
@@ -451,6 +455,7 @@ header{
     font-family: ropa-mix-pro, sans-serif;
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 5%;
 }
 
 .bannergreen {
@@ -458,6 +463,7 @@ header{
     color: #12362A;
     font-family: ropa-mix-pro, sans-serif;
     padding: 1%;
+    margin-bottom: 5%;
 }
 
 .someknap {
@@ -472,5 +478,6 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
