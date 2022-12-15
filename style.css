@@ -244,19 +244,6 @@ header{
     max-width: 150px;
     max-height: 45px;
 }
-.kontakt {
-    background-color: #FC8ECA;
-    border: none;
-    color: #12362A;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 33px;
-  }
   .portrait {
     object-fit: cover;
     font-family: ropa-mix-pro, sans-serif;
