@@ -398,6 +398,7 @@ header{
     font-style: normal;
     font-size: 35px;
     color: #12362A;
+    margin-bottom: 5%;
 }
 
 .hjem2 p{
@@ -406,6 +407,7 @@ header{
     font-style: normal;
     font-size: 20px;
     color: #12362A;
+    margin-bottom: 5%;
 }
 
 
@@ -429,6 +431,7 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
 .omknap {
@@ -443,6 +446,7 @@ header{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 33px;
+    margin-bottom: 5%;
 }
 
 .banner {
