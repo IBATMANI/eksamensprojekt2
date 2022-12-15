@@ -309,80 +309,6 @@ header{
     border-radius: 33px;
   }
 
-  @media only screen and (min-width: 768px) {
-    .footer1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 2%;
-        margin: 0%;
-        background-color: #12362A;
-        color: #FDFDFC;
-        
-    }
-    
-    .box1 {
-        flex: 1;
-    }
-    
-    .box2 {
-        display: block;
-        padding: 1%;
-        flex: 1;
-    }
-    
-    .box3 {
-        display: block;
-        padding: 1%;
-        flex: 1;
-    }
-    
-    .box4 {
-        display: block;
-        padding: 1%;
-        flex: 1;
-    }
-    
-    .box5 {
-        display: block;
-        padding: 1%;
-        flex: 1;
-    }
-    
-    .box6 {
-        display: block;
-        padding: 1%;
-        flex: 1;
-    }
-    
-    .box7 {
-        display: inline-flex;
-        padding: 0;
-        flex: 1;
-    }
-    
-    .box8 {
-        display: flex;
-        padding: 0 5%;
-        flex: 1;
-        font-size: 10px;
-    }
-    
-    .kontakt {
-        background-color: #FC8ECA;
-        border: none;
-        color: #12362A;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 30px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 33px;
-      }
-  }
-
 .hjemcon {
     display: flex;
     flex-direction: column;
@@ -493,4 +419,78 @@ header{
     border-radius: 33px;
     margin-bottom: 5%;
 }
+
+@media only screen and (min-width: 768px) {
+    .footer1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2%;
+        margin: 0%;
+        background-color: #12362A;
+        color: #FDFDFC;
+        
+    }
+    
+    .box1 {
+        flex: 1;
+    }
+    
+    .box2 {
+        display: block;
+        padding: 1%;
+        flex: 1;
+    }
+    
+    .box3 {
+        display: block;
+        padding: 1%;
+        flex: 1;
+    }
+    
+    .box4 {
+        display: block;
+        padding: 1%;
+        flex: 1;
+    }
+    
+    .box5 {
+        display: block;
+        padding: 1%;
+        flex: 1;
+    }
+    
+    .box6 {
+        display: block;
+        padding: 1%;
+        flex: 1;
+    }
+    
+    .box7 {
+        display: inline-flex;
+        padding: 0;
+        flex: 1;
+    }
+    
+    .box8 {
+        display: flex;
+        padding: 0 5%;
+        flex: 1;
+        font-size: 10px;
+    }
+    
+    .kontakt {
+        background-color: #FC8ECA;
+        border: none;
+        color: #12362A;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 33px;
+      }
+  }
 
