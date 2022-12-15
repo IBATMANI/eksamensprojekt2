@@ -259,3 +259,17 @@
     font-family: ropa-mix-pro, sans-serif;
     padding: 1%;
 }
+
+.someknap {
+    background-color: #12362A;
+    border: none;
+    color: #FCFCFA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
+}
