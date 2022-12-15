@@ -265,7 +265,9 @@ header{
     border-radius: 30px;
     object-position: 50% 50%; }
   /* Alex om side slut */
-/* logoer */
+
+
+
 /* -------logoer------- */
 .grid-logoer {
     display: grid;
@@ -297,6 +299,8 @@ header{
     max-height: 45px;
     margin-bottom: 20px;
 }
+
+/* logoer slut */
 
 .kontaktknap {
     background-color: #FC8ECA;
