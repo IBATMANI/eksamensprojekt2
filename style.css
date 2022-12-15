@@ -54,7 +54,82 @@
     flex: 1;
     font-size: 10px;
 }
+/* Alex om side start */
+.hjempic {
+    max-width: 310px;
+    width: 100%;
+    max-height: 233px;
+    height: 100%;
+    border-radius: 30px;
+}
+.greenbox {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    background-color: #BCE784;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.greentext {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.greentext2 {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.h2 {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.h3 {
+    display: grid;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    
+}
 
+
+.grid-logoer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+}
+
+.center-logo-grid {
+    margin: 0 auto;
+}
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.logo-img {
+    width: fit-content;
+    max-width: 150px;
+    max-height: 45px;
+}
+.kontakt {
+    background-color: #FC8ECA;
+    border: none;
+    color: #12362A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
+  }
+  /* Alex om side slut */
 /* logoer */
 .grid-logoer {
     display: grid;
