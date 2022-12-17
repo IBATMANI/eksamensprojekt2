@@ -277,7 +277,7 @@ header{
     font-style: normal;
   }
 
-.hjemcon {
+.con {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -687,7 +687,7 @@ header{
     border-radius: 33px;
   }
 
-.hjemcon {
+.con {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1106,7 +1106,7 @@ cursor: pointer;
 border-radius: 33px;
 }
 
-.hjemcon {
+.con {
 display: flex;
 flex-direction: row-reverse;
 align-items: center;
