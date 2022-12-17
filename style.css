@@ -771,13 +771,14 @@ header{
 }
 
 .bannerov {
-    display: block;
+    display: flex;
     background-color: #F0F0E8;
     color: #12362A;
     font-family: ropa-mix-pro, sans-serif;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 50px;
+    justify-content: center;
 }
 
 .bannergreen {
