@@ -377,6 +377,16 @@ header{
     margin-bottom: 5%;
 }
 
+.bannerov {
+    display: none;
+    background-color: #F0F0E8;
+    color: #12362A;
+    font-family: ropa-mix-pro, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 35px;
+}
+
 .bannergreen {
     background-color: #BCE784;
     color: #12362A;
@@ -700,23 +710,23 @@ header{
 }
 
 .hjem1 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
     
 }
 
 .hjem2 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .hjem2 h1{
     font-family: ropa-mix-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 35px;
+    font-size: 50px;
     color: #12362A;
     margin-bottom: 5%;
 }
@@ -771,9 +781,19 @@ header{
     background-color: #F0F0E8;
     color: #12362A;
     font-family: ropa-mix-pro, sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: 5%;
+}
+
+.bannerov {
+    display: block;
+    background-color: #F0F0E8;
+    color: #12362A;
+    font-family: ropa-mix-pro, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
 }
 
 .bannergreen {
