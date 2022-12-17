@@ -1116,6 +1116,16 @@ margin-top: 30px;
 margin-bottom: 20px;
 }
 
+.hjem1 {
+    margin-left: 50px;
+    
+}
+
+.hjem2 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 
 .hjem2 h1{
 font-family: ropa-mix-pro, sans-serif;
@@ -1138,7 +1148,7 @@ margin-bottom: 5%;
 
 
 .allebd {
-max-width: 800px;
+max-width: 1200px;
 width: 100%;
 }
 
