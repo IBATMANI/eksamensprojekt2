@@ -365,6 +365,8 @@ header{
     font-family: ropa-mix-pro, sans-serif;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     margin-bottom: 5%;
 }
 
@@ -1114,6 +1116,7 @@ margin-left: 120px;
 margin-right: 120px;
 margin-top: 30px;
 margin-bottom: 20px;
+justify-content: space-between;
 }
 
 .hjem1 {
@@ -1124,6 +1127,8 @@ margin-bottom: 20px;
 .hjem2 {
     margin-left: 0px;
     margin-right: 0px;
+    width: 100%;
+    max-width: 650px;
 }
 
 
@@ -1143,6 +1148,7 @@ font-style: normal;
 font-size: 20px;
 color: #12362A;
 margin-bottom: 5%;
+font-size: 30px;
 }
 
 
@@ -1186,9 +1192,10 @@ margin-bottom: 5%;
 background-color: #F0F0E8;
 color: #12362A;
 font-family: ropa-mix-pro, sans-serif;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 120px;
+padding-right: 120px;
 margin-bottom: 5%;
+font-size: 40px;
 }
 
 .bannerov {
@@ -1198,7 +1205,7 @@ color: #12362A;
 font-family: ropa-mix-pro, sans-serif;
 padding-left: 50px;
 padding-right: 50px;
-font-size: 50px;
+font-size: 70px;
 justify-content: center;
 }
 
@@ -1206,7 +1213,8 @@ justify-content: center;
 background-color: #BCE784;
 color: #12362A;
 font-family: ropa-mix-pro, sans-serif;
-padding: 1%;
+padding-left: 120px;
+padding-right: 120px;
 margin-bottom: 5%;
 }
 
