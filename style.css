@@ -215,14 +215,60 @@ header{
     font-family: neue-haas-grotesk-text, sans-serif;
     
 }
-
+.irisjacobnavn {
+    
+    font-family: ropa-mix-pro, sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+    
+}
   .portrait {
     object-fit: cover;
     font-family: ropa-mix-pro, sans-serif;
     width: 310px;
-    height: 210px;
+    height: 224px;
     border-radius: 30px;
     object-position: 50% 50%; }
+
+
+    .irisjacobdisc {
+        margin-left: 80px;
+        margin-right: 80px;
+        font-family: ropa-mix-pro, sans-serif;
+    }
+  
+    
+    .team {
+        text-align: left;
+        font-family: ropa-mix-pro, sans-serif;
+        margin-bottom: 27px;
+    }
+    .bag {
+        font-family: neue-haas-grotesk-text, sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        margin-top: 23px;
+    }
+    .hvembag {
+        font-family: ropa-mix-pro, sans-serif;
+        margin-top: 34px;
+
+    }
+    .mail {
+        display: flex;
+        font-family: neue-haas-grotesk-text, sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+        
+    }
+    .pinklogo {
+        display: flex;
+        width: 70px;
+        height: 30px;
+        margin-bottom: 52px;
+    }
   /* Alex om side slut */
 
 
@@ -642,6 +688,7 @@ header{
     height: 210px;
     border-radius: 30px;
     object-position: 50% 50%; }
+
   /* Alex om side slut */
 /* logoer */
 /* -------logoer------- */
