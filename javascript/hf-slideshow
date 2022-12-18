@@ -1,0 +1,102 @@
+// const slideshow = document.getElementById("slideshow");
+// const images = slideshow.getElementsByTagName("img");
+// const fullscreenButton = document.getElementById("fullscreen-button");
+// let current = 0;
+
+// fullscreenButton.addEventListener("click", toggleFullScreen);
+
+// function toggleFullScreen() {
+//   if (document.fullscreenElement) {
+//     document.exitFullscreen();
+//   } else {
+//     slideshow.requestFullscreen();
+//   }
+// }
+
+// setInterval(function() {
+//   for (let i = 0; i < images.length; i++) {
+//     images[i].classList.remove("active");
+//   }
+//   if (current >= images.length) {
+//     current = 0;
+//   } else {
+//     current++;
+//   }
+//   images[current].classList.add("active");
+// }, 1000); // Change the interval to control the speed of the slideshow
+
+
+
+
+// god kode
+
+// const slideshow = document.querySelector('#slideshow');
+// const images = slideshow.querySelectorAll('img');
+// const imageArray = [...images]; // Convert the NodeList to an array
+// let currentIndex = 0;
+
+// setInterval(() => {
+//   // Hide the current image
+//   images[currentIndex].style.opacity = 0;
+
+//   // Determine the next image to display
+//   if (currentIndex === imageArray.length - 1) {
+//     // If the current image is the last image in the array, go back to the first image
+//     currentIndex = 0;
+//   } else {
+//     // Otherwise, move to the next image in the array
+//     currentIndex++;
+//   }
+
+//   // Show the next image
+//   images[currentIndex].style.opacity = 1;
+// }, 3000); // Switch images every 3 seconds
+
+
+
+
+// var images = ['images/slideshow1.jpg', 'images/slideshow2.jpg', 'images/slideshow3.jpg'];
+
+// var slideIndex = 0;
+// showSlides();
+
+// function showSlides() {
+//   var i;
+//   var slides = document.getElementsByClassName("slides");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   slideIndex++;
+//   if (slideIndex > images.length) {
+//     slideIndex = 1;
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   slides[slideIndex-1].children[0].src = images[slideIndex-1];
+//   setTimeout(showSlides, 3000); // Change image every 3 seconds
+// }
+
+const images = ['images/slideshow1.jpg', 'images/slideshow2.jpg', 'images/slideshow3.jpg'];
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  const slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > images.length) {
+    slideIndex = 1;
+  } else {
+    let message = document.createElement("p");
+    message.innerHTML = "End of slideshow";
+    document.body.appendChild(message);
+  }
+  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].children[0].src = images[slideIndex-1];
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+
