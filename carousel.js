@@ -5,10 +5,10 @@ const next = document.querySelector(".carouselknap--next"),
        
        next.addEventListener("click", () => {
          angle -= 45;
-         carousel.style.transform = `translateZ(-25rem) rotateY(${angle}deg)`;
+         carousel.style.transform = `translateZ(-400px) rotateY(${angle}deg)`;
        });
        
        back.addEventListener("click", () => {
          angle += 45;
-         carousel.style.transform = `translateZ(-25rem) rotateY(${angle}deg)`;
+         carousel.style.transform = `translateZ(-400px) rotateY(${angle}deg)`;
        });
