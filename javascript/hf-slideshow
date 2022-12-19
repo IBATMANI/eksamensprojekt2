@@ -1,25 +1,28 @@
-const images = ['images/slideshow1.jpg', 'images/slideshow2.jpg', 'images/slideshow3.jpg'];
+const images = ['images/slideshow1.jpg', 'images/slideshow2.jpg', 'images/slideshow3.jpg']; // Array of image file paths
 
-let slideIndex = 0;
-showSlides();
+let slideIndex = 0; // Keep track of the current image being displayed
 
-function showSlides() {
-  let i;
-  const slides = document.getElementsByClassName("slides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+const slideshow = { // Object definition starts here
+  images: images,
+  slideIndex: slideIndex,
+  showSlides: function() {
+    let i;
+    const slides = document.getElementsByClassName("slides"); // Get all elements with class name "slides"
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; // Hide all the images
+    }
+    this.slideIndex++; // Move to the next image
+    if (this.slideIndex > this.images.length) { // If we've reached the end of the images array
+      this.slideIndex = 1; // Reset to the first image
+    } else {
+      let message = document.createElement("p"); // Create a new paragraph element
+      message.innerHTML = ""; // Set the inner HTML to an empty string
+      document.body.appendChild(message); // Add the paragraph to the body element
+    }
+    slides[this.slideIndex-1].style.display = "block"; // Make the current image visible
+    slides[this.slideIndex-1].children[0].src = this.images[this.slideIndex-1]; // Set the src attribute of the image to the corresponding image file path
+    setTimeout(this.showSlides.bind(this), 5000); // Schedule the next call to showSlides in 5 seconds
   }
-  slideIndex++;
-  if (slideIndex > images.length) {
-    slideIndex = 1;
-  } else {
-    let message = document.createElement("p");
-    message.innerHTML = "";
-    document.body.appendChild(message);
-  }
-  slides[slideIndex-1].style.display = "block";
-  slides[slideIndex-1].children[0].src = images[slideIndex-1];
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
+}; // Object definition ends here
 
-
+slideshow.showSlides(); // Start the slideshow
