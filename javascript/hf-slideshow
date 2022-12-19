@@ -1,13 +1,13 @@
 const images = ['images/slideshow1.jpg', 'images/slideshow2.jpg', 'images/slideshow3.jpg']; // Array of image file paths
 
-let slideIndex = 0; // Keep track of the current image being displayed
+let slideIndex = 0;
 
-const slideshow = { // Object definition starts here
+const slideshow = {
   images: images,
   slideIndex: slideIndex,
   showSlides: function() {
     let i;
-    const slides = document.getElementsByClassName("slides"); // Get all elements with class name "slides"
+    const slides = document.getElementsByClassName("slides");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; // Hide all the images
     }
@@ -15,14 +15,14 @@ const slideshow = { // Object definition starts here
     if (this.slideIndex > this.images.length) { // If we've reached the end of the images array
       this.slideIndex = 1; // Reset to the first image
     } else {
-      let message = document.createElement("p"); // Create a new paragraph element
-      message.innerHTML = ""; // Set the inner HTML to an empty string
-      document.body.appendChild(message); // Add the paragraph to the body element
+      let message = document.createElement("p");
+      message.innerHTML = "";
+      document.body.appendChild(message);
     }
     slides[this.slideIndex-1].style.display = "block"; // Make the current image visible
-    slides[this.slideIndex-1].children[0].src = this.images[this.slideIndex-1]; // Set the src attribute of the image to the corresponding image file path
-    setTimeout(this.showSlides.bind(this), 5000); // Schedule the next call to showSlides in 5 seconds
+    slides[this.slideIndex-1].children[0].src = this.images[this.slideIndex-1];
+    setTimeout(this.showSlides.bind(this), 5000);
   }
-}; // Object definition ends here
+};
 
 slideshow.showSlides(); // Start the slideshow
