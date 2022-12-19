@@ -307,28 +307,6 @@ header{
 /* logoer slut */
 
 /* --------HF Projekt Slideshow-------- */
-/* #slideshow {
-    width: 800px;
-    height: 600px;
-    position: relative;
-  }
-  
-  #slideshow img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-  
-  #slideshow img:first-child {
-    opacity: 1;
-  } */
-
-
 
   #slideshow {
     position: relative;
@@ -360,7 +338,10 @@ header{
     margin: 0;
   }
   
-  
+  .hf-text {
+    margin-bottom: 5%;
+    margin: 40px;
+  }
 
   /* --------HF Projekt Slideshow Slut-------- */
 
@@ -420,6 +401,31 @@ header{
     margin-bottom: 5%;
 }
 
+/* --------Hjem3-------- */
+.hjem3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.hjem3 h1{
+    font-family: ropa-mix-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #12362A;
+    margin-bottom: 5%;
+}
+
+.hjem3 p{
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #12362A;
+    margin-bottom: 5%;
+}
+
+/* -------Hjem3 slut-------- */
 
 
 .allebd {
@@ -871,7 +877,6 @@ header{
 }
 
 .logo-img {
-    /* width: fit-content; */
     max-width: 150px;
     max-height: 45px;
     margin-bottom: 20px;
@@ -1354,6 +1359,35 @@ color: #12362A;
 margin-bottom: 5%;
 font-size: 30px;
 }
+
+/* --------Hjem3--------- */
+
+.hjem3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.hjem3 h1{
+font-family: ropa-mix-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 70px;
+color: #12362A;
+margin-bottom: 5%;
+}
+
+.hjem3 p{
+font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+color: #12362A;
+margin-bottom: 5%;
+font-size: 30px;
+}
+
+/* --------Hjem3 slut-------- */
 
 
 
