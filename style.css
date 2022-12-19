@@ -543,10 +543,10 @@ header{
   }
   .carouselcon {
     position: relative;
-    width: 240px;
-    height: 240px;
+    width: 320px;
+    height: 320px;
     transform-style: preserve-3d;
-    transform: translateZ(-25rem);
+    transform: translateZ(-400px);
     transition: transform 0.3s ease-in;
   }
   .carouselbd {
@@ -1526,6 +1526,15 @@ select {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .carouselcon {
+    position: relative;
+    width: 240px;
+    height: 50vh;
+    transform-style: preserve-3d;
+    transform: translateZ(-400px);
+    transition: transform 0.3s ease-in;
   }
 
 
